@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { FaBox } from 'react-icons/fa';
 import styles from '../styles/ViewOurWork.module.scss'
 export default function ViewOurWork() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { FaFacebook,FaLinkedin,FaInstagram } from 'react-icons/fa';
 import { FaWhatsapp,FaPhone,FaVoicemail,FaEnvelope} from 'react-icons/fa';
 import styles from '../styles/Footer.module.scss'
