@@ -1,0 +1,26 @@
+@import "_help.scss";
+
+.ourpartner {
+    background-color: $maincolor;
+    color: $white;
+    padding: 5rem 0;
+    margin: 3rem 0;
+    h2{
+        text-align: center;
+    }
+    .box {
+        background-color: #7276ec;
+        transition: 1s;
+        margin: 2rem 0;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 0.25rem;
+        padding: 4rem 0;
+        .icon{
+            font-size: 4rem;
+        }
+        &:hover{
+            background-color: $white;
+        }
+    }
+}

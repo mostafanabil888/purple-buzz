@@ -1,0 +1,15 @@
+@import '_help.scss';
+.ourvission{
+    .box{ 
+        background-color: $maincolor;
+        padding: 1.5rem 0;
+        width: 8rem;
+        color: $white;
+        border-radius: 13px;
+        font-size: 2rem;
+        margin:auto;
+    }
+    h2{
+        margin: 1.5rem 0;
+    }
+}

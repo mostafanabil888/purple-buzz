@@ -1,0 +1,38 @@
+.recentworks {
+    .workscard {
+        position: relative;
+        margin: 2rem 0;
+        transition: .5s;
+        img {
+            border-radius: 25px;
+        }
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 222;
+        }
+        .carddetails {
+            position: absolute;
+            top: 50%;
+            font-size: 1.2rem;
+            padding-left: 1rem;
+        }
+        &:hover {
+            .overlay{
+                background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 33.333%, rgba(97, 84, 199, 1) 66.666%, rgba(255, 255, 255, 0) 99.999%);
+                background-size: 300% 300%;
+                background-position: 0% 100%;
+                transition: .5s;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+            .carddetails {
+                top: 30%;
+                color: white;
+            }
+        }
+    }
+}

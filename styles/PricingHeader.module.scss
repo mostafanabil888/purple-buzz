@@ -1,0 +1,15 @@
+@import '_help.scss';
+.header{
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 0.5rem 1rem;
+        border: 1px solid $maincolor;
+        border-radius: 25px;
+        margin: 2rem 0;
+        &:hover{
+            background-color: $maincolor;
+            color: $white;
+        }
+    }
+}

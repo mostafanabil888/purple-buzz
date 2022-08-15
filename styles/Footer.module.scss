@@ -1,0 +1,33 @@
+@import '_help.scss';
+.footer{
+    background-color: #6266ea;
+    color: $white;
+    .footercontent{
+        padding: 1rem 0.5rem;
+        li{
+                font-weight: 400;
+                margin: 0.5rem 0;
+                font-size: 1rem;
+                font-size: 1.2rem;
+                text-transform: capitalize;
+        }
+        a{
+            color: $white;
+            text-decoration: none;
+            &:hover{
+                color: wheat;  
+            }
+        }
+        .flexicons{
+            font-size: 2rem;
+            margin-right: 0.5rem;
+            color: blue;
+            background-color: $white;
+            padding: 0.3rem;
+        }
+    }
+    .icons{
+        font-size: 1.4rem;
+        margin-right: 0.5rem;
+    }
+}

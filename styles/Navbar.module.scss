@@ -1,0 +1,51 @@
+@import '_help.scss';
+.navbar{
+    padding: 1rem;
+    .navbarbrand{
+        h1{
+            font-size: 1.275rem;
+            margin: 0 0.5rem;
+            color: black;
+        }
+        .icon{
+            font-size: 1.55rem;
+            color: black;
+        }
+        span{
+            color: $maincolor;
+            font-size: 1.275rem;
+            font-weight: 500;
+        }
+    } 
+    .navbarcollapse{
+        background-color: inherit;
+        z-index: 100;
+        .navbarnav{
+            margin-left: auto;
+            a{
+                text-decoration: none;
+                color: rgba(0,0,0,.55);
+                text-align: center;
+                margin: 0.5rem ;
+                text-transform: capitalize;
+                &:hover{
+                    background-color: $maincolor;
+                    color: $white;
+                    border-radius: 25px;
+                    padding: 0.5rem 1rem;
+                }
+            }
+        }
+    }  
+    button{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        &:focus{
+            border: none;
+        outline: none;
+        box-shadow: none;
+        }
+    }  
+    
+}

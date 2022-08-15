@@ -1,0 +1,14 @@
+@import '_help.scss';
+.aboutheader{
+    h1{
+        color: $maincolor;
+        &::after{
+            content: "";
+            width: 150px;
+            display: block;
+            position: absolute;
+            border-bottom: 5px solid $maincolor;
+            padding: 1rem 0;
+        }
+    }
+}

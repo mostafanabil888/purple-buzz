@@ -1,0 +1,30 @@
+@import 'help.scss';
+.stayup{
+    padding: 4rem 0;
+    h2{
+        margin: 2rem;
+    }
+    input{
+        border: 1px solid #ced4da;
+        padding: 0.5rem 0.75rem;
+        color: #212529;
+        background-color: #fff;
+        width: 25%;
+        &:focus{
+            border: 1px solid $maincolor;
+            outline: none;
+            box-shadow: $maincolor;
+        }
+    }
+    button{
+        background-color: #6266ea;
+        padding: 0.5rem 1rem;
+        border: 1px solid #ced4da;
+        color: #f6f9fe;
+        border-bottom-left-radius: 0.25rem !important;
+        font-size: 1rem;
+    }
+    p{
+        margin: 2rem 0;
+    }
+}

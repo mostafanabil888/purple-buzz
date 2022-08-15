@@ -1,0 +1,52 @@
+@import '_help.scss';
+.header {
+    background-image: url('../public/images/banner-bg-01.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 3rem 0;
+    .curousel{
+       button{
+        background-color: $maincolor;
+       }
+       .btnbox {
+        text-decoration: none;
+        text-transform: capitalize;
+        a {
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            color: $maincolor;
+            border: 1px solid $maincolor;
+            border-radius: 25px;
+            font-weight: 500;
+            line-height: 2px;
+            &:hover {
+                color: $white;
+                background-color: $maincolor;
+            }
+        }
+    }
+
+    h2 {
+        color: $maincolor;
+        font-size: 2rem;
+        position: relative;
+        padding-bottom: 1rem 0;
+
+        &::after {
+            content: "";
+            width: 150px;
+            display: block;
+            position: absolute;
+            background-color: black;
+            margin: 2rem 0;
+            border-bottom: 5px solid $maincolor;
+        }
+    }
+
+    p {
+        color: #6c757d;
+        padding: 4rem 0;
+    }
+    }
+   
+}

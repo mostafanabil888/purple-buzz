@@ -1,0 +1,36 @@
+@import '_help.scss';
+.ourpricing{
+    background-color: #f6f9fe;
+    padding: 3rem 0;
+    .carditems{
+        background-color:#fff;
+        margin: 2rem;
+        border-radius: 2rem;
+        .boxicon{
+            padding: 4rem 2rem;
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+        }
+        .boxcontnet{
+            padding: 4rem 0 ;
+        }
+        .boxprice{
+            padding: 4rem 0;
+            span{
+                margin: 1rem 0;
+            }
+            a{
+                text-decoration: none;
+                color: $maincolor;
+                border-radius: 2rem;
+                text-transform: capitalize;
+                border: 1px solid $maincolor;
+                padding: 0.5rem 1rem;
+                &:hover{
+                    color: $white;
+                    background-color: $maincolor;
+                }
+            }
+        }
+    }
+}
